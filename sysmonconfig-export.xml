@@ -223,8 +223,8 @@
 			<Image condition="is">C:\Program Files\Windows Media Player\wmpnscfg.exe</Image> <!--Windows: Windows Media Player Network Sharing Service Configuration Application-->
 			<!--SECTION: Splunk Exclusions-->
 			<Image condition="begin with">C:\Program Files\Splunk\bin\</Image>
-			<ParentImage condition="is">C:\Program Files\Splunk\bin\splunkd.exe</ParentImage>
 			<ParentImage condition="is">C:\Program Files\Splunk\bin\splunk.exe</ParentImage>
+			<ParentImage condition="is">C:\Program Files\Splunk\bin\splunkd.exe</ParentImage>
 			<Image condition="begin with">C:\Program Files\SplunkUniversalForwarder\bin\</Image>
 			<Image condition="begin with">C:\Program Files\SplunkUniversalForwarder\bin\</Image>
 			<ParentImage condition="is">C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe</ParentImage>
